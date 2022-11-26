@@ -11,17 +11,19 @@
   "author": "Gaurav-Sutar",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
+    "connect-mongodb-session": "^3.1.1",
+    "ejs": "^3.1.8",
     "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
     "mongodb": "^4.12.1",
     "mongoose": "^6.7.3",
     "mysql2": "^1.6.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.2",
     "sequelize": "^5.0.0-beta.11"
   }
 }
